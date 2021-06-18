@@ -473,18 +473,18 @@ export function rectCover(number: number): number {
 
 ```js
 export function rectCover(number: number): number {
-    // write code here
-    if(number <=3) return number;
-    let a = 1;
-    let b = 2;
-    let c;
-    let i = 2;
-    while(i<number) {
-      c = a+b;
-      a = b;
-      b = c;
-      i++;
-    }
-    return c;
+  // write code here
+  if(number <=3) return number;
+  let a = 1;
+  let b = 2;
+  let c;
+  let i = 2;
+  while(i<number) {
+    c = a+b;
+    a = b;
+    b = c;
+    i++;
+  }
+  return c;
 }
 ```
