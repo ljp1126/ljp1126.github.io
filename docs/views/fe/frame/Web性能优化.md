@@ -168,7 +168,7 @@ First CPU Idle，页面首可交互时间
 
 与 TTI 不同的是：FCI 发生在用户可以开始与页面交互时；TTI 发生在用户完全能够（可持续）与页面交互时
 
-## FID
+### FID
 
 First Input Delay，首次输入延迟，用于记录在 FCP 和 TTI 之间用户首次与页面交互时响应的延迟
 
